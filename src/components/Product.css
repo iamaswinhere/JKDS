@@ -21,6 +21,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 2rem;
+  padding: 3rem;
   background: linear-gradient(160deg, rgba(16, 63, 120, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
 }
 
@@ -263,5 +264,39 @@
   
   .mockup-container {
     transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .product-grid {
+    gap: 2rem;
+  }
+
+  .mockup-content {
+    padding: 1rem;
+  }
+  
+  .mock-stat-value {
+    font-size: 1rem;
+  }
+  
+  .mock-sidebar {
+    width: 40px;
+  }
+
+  .product-cta {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .product-cta .btn {
+    width: 100%;
+    justify-content: center;
   }
 }

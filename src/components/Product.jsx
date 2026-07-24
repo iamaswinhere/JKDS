@@ -24,7 +24,7 @@ const Product = () => {
   return (
     <section id="product" className="product-section">
       <div className="container">
-        <div className="product-card glass-panel" style={{ padding: '3rem' }}>
+        <div className="product-card glass-panel">
           <div className="product-grid">
             <div className="product-info">
               <div className="product-badge">
