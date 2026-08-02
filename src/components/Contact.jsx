@@ -59,16 +59,6 @@ const Contact = () => {
                   <p>+91 8921809791</p>
                 </div>
               </div>
-              
-              <div className="contact-method">
-                <div className="contact-icon-wrap glass-panel">
-                  <MapPin color="var(--text-primary)" />
-                </div>
-                <div>
-                  <h4>Visit Us</h4>
-                  <p>Digital Hub, Tech Park, India</p>
-                </div>
-              </div>
             </div>
 
             <div className="contact-socials" style={{ marginTop: '3rem' }}>

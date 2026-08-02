@@ -31,23 +31,6 @@ const Founder = () => {
               More than just SEO marketing, Aswin builds custom software solutions and high-performance platforms like GymOS. His goal is to create fast, beautiful, and easy-to-use websites and apps that get you more customers and sales.
             </p>
             
-            <div className="founder-stats">
-              <div className="stat-item">
-                <Terminal size={24} color="var(--accent-primary)" />
-                <div className="stat-text">
-                  <span className="stat-title">Tech Stack</span>
-                  <span className="stat-value">React, Next.js, AI</span>
-                </div>
-              </div>
-              <div className="stat-item">
-                <Briefcase size={24} color="var(--accent-secondary)" />
-                <div className="stat-text">
-                  <span className="stat-title">Focus</span>
-                  <span className="stat-value">SaaS & Growth</span>
-                </div>
-              </div>
-            </div>
-            
             <a href="https://aswinraj.co.in" target="_blank" rel="noopener noreferrer" className="btn btn-outline hover-scale" style={{ marginTop: '2rem' }}>
               Visit Personal Portfolio
             </a>

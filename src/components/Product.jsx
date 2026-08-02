@@ -27,8 +27,8 @@ const Product = () => {
         <div className="product-card glass-panel">
           <div className="product-grid">
             <div className="product-info">
-              <div className="product-badge">
-                <Zap size={14} /> Our Flagship Product
+              <div className="product-badge" style={{ background: 'rgba(255, 189, 46, 0.1)', borderColor: 'rgba(255, 189, 46, 0.3)', color: '#ffbd2e', boxShadow: '0 0 15px rgba(255, 189, 46, 0.15)' }}>
+                <Zap size={14} /> Coming Soon
               </div>
               <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '1rem' }}>
                 Meet <span className="text-gradient">GymOS</span>
@@ -48,12 +48,9 @@ const Product = () => {
               </ul>
 
               <div className="product-cta">
-                <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I would like to make an enquiry about GymOS.')}`} target="_blank" rel="noopener noreferrer" className="btn btn-primary hover-scale">
-                  Enquiry <ArrowRight size={20} />
+                <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I want to join the waitlist for GymOS!')}`} target="_blank" rel="noopener noreferrer" className="btn btn-primary hover-scale">
+                  Join Waitlist <ArrowRight size={20} />
                 </a>
-                <button onClick={handleDownload} className="btn btn-outline hover-scale">
-                  Download Proposal
-                </button>
               </div>
             </div>
 

@@ -25,9 +25,9 @@ const Hero = () => {
           </p>
           
           <div className="hero-cta">
-            <NavHashLink to="/#contact" className="btn btn-primary btn-lg hover-scale">
+            <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I would like to book a consultation.')}`} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg hover-scale">
               Book a Consultation <ArrowRight size={20} />
-            </NavHashLink>
+            </a>
             <NavHashLink to="/services" className="btn btn-outline btn-lg hover-scale">
               Explore Services
             </NavHashLink>
