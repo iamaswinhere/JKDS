@@ -53,6 +53,13 @@ const ServicesPage = () => {
                         <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Dominate organic search rankings</span>
                       </div>
                     </li>
+                    <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                      <CheckCircle size={24} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '2px' }} /> 
+                      <div>
+                        <strong style={{ display: 'block', color: 'var(--text-primary)', marginBottom: '0.25rem' }}>AI Video Generation</strong>
+                        <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>High-quality synthetic media</span>
+                      </div>
+                    </li>
                   </ul>
                   <ul className="pricing-features">
                     <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
@@ -74,6 +81,13 @@ const ServicesPage = () => {
                       <div>
                         <strong style={{ display: 'block', color: 'var(--text-primary)', marginBottom: '0.25rem' }}>Google Ads Management</strong>
                         <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Capture high-intent search traffic</span>
+                      </div>
+                    </li>
+                    <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                      <CheckCircle size={24} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '2px' }} /> 
+                      <div>
+                        <strong style={{ display: 'block', color: 'var(--text-primary)', marginBottom: '0.25rem' }}>Professional Video Editing</strong>
+                        <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Engaging reels & promotional cuts</span>
                       </div>
                     </li>
                   </ul>
