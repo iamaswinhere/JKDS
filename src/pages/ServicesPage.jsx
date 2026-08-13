@@ -210,10 +210,34 @@ const ServicesPage = () => {
                 <h4 className="pricing-tier">Premium</h4>
                 <div className="pricing-price">₹10,000<span> / month</span></div>
                 <ul className="pricing-features">
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>5-6 Custom Image Posts / Week</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>1-2 High Quality Video Posts</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>Advanced Meta-SEO</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>Strategic Hashtag Selection</span></li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Social Media Management</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>2 platforms, 8 graphic posts & 2 short-form edits</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Paid Ads Management</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Meta or Google Ads (ad spend handled by client)</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Local SEO</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Google Business Profile & local keyword integration</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Monthly Review</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Dashboard reporting on reach and engagement metrics</span>
+                    </div>
+                  </li>
                 </ul>
                 <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I am interested in the Social Media Management - Premium package.')}`} target="_blank" rel="noopener noreferrer" className="btn btn-primary pricing-btn hover-scale">Get Started</a>
               </div>
@@ -222,12 +246,41 @@ const ServicesPage = () => {
                 <h4 className="pricing-tier">Ultra-Premium</h4>
                 <div className="pricing-price">₹20,000<span> / month</span></div>
                 <ul className="pricing-features">
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>High-Quality Video & Reels Production</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>In-Depth Growth Strategies</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Advanced SEO & Analytics</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Meta/Google Ads Management</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Campaign Optimization</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Detailed Monthly Reporting</span></li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Targeted Creative</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>2 high-impact promotional video ad campaigns / month</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Storefront Optimization</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Conversion tweaks for platforms like Shopify</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Performant Web Assets</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Fast NextJS landing pages for peak ad conversion</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>Paid Ads & Growth</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Meta/Google Ads management & in-depth growth strategies</span>
+                    </div>
+                  </li>
+                  <li className="pricing-feature" style={{ alignItems: 'flex-start' }}>
+                    <CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0, marginTop: '4px' }} /> 
+                    <div style={{ lineHeight: '1.4' }}>
+                      <strong style={{ display: 'block', color: 'var(--text-primary)' }}>SEO & Analytics</strong>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Advanced SEO, campaign optimization & detailed reporting</span>
+                    </div>
+                  </li>
                 </ul>
                 <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I am interested in the Social Media Management - Ultra-Premium package.')}`} target="_blank" rel="noopener noreferrer" className="btn btn-outline pricing-btn hover-scale">Get Started</a>
               </div>
