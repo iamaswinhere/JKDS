@@ -197,7 +197,7 @@ const ServicesPage = () => {
 
               <div className="pricing-card glass-panel">
                 <h4 className="pricing-tier">Basic</h4>
-                <div className="pricing-price">₹3k–5k<span> / month</span></div>
+                <div className="pricing-price">₹5,000<span> / month</span></div>
                 <ul className="pricing-features">
                   <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>3 Posts / Week</span></li>
                   <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Description with Meta-SEO</span></li>
@@ -208,7 +208,7 @@ const ServicesPage = () => {
 
               <div className="pricing-card glass-panel featured">
                 <h4 className="pricing-tier">Premium</h4>
-                <div className="pricing-price">₹10k–15k<span> / month</span></div>
+                <div className="pricing-price">₹10,000<span> / month</span></div>
                 <ul className="pricing-features">
                   <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>5-6 Custom Image Posts / Week</span></li>
                   <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>1-2 High Quality Video Posts</span></li>
@@ -220,7 +220,7 @@ const ServicesPage = () => {
 
               <div className="pricing-card glass-panel">
                 <h4 className="pricing-tier">Ultra-Premium</h4>
-                <div className="pricing-price">₹20k+<span> / month</span></div>
+                <div className="pricing-price">₹20,000<span> / month</span></div>
                 <ul className="pricing-features">
                   <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>High-Quality Video & Reels Production</span></li>
                   <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>In-Depth Growth Strategies</span></li>
@@ -235,49 +235,7 @@ const ServicesPage = () => {
             </div>
           </div>
 
-          {/* Ad Promotion Category */}
-          <div className="pricing-category">
-            <h3 className="pricing-category-title">Ad Promotion</h3>
-            <div className="pricing-grid">
-              
-              <div className="pricing-card glass-panel">
-                <h4 className="pricing-tier">Instagram Ads</h4>
-                <div className="pricing-price" style={{ fontSize: '1.5rem', marginTop: '0.5rem' }}>Custom Quote</div>
-                <ul className="pricing-features">
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Targeted Audience Research</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Ad Creative & Copywriting</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Campaign Monitoring & Tweaking</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>ROI & Performance Reporting</span></li>
-                </ul>
-                <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I am interested in Instagram Ad Promotion.')}`} target="_blank" rel="noopener noreferrer" className="btn btn-outline pricing-btn hover-scale">Get Started</a>
-              </div>
-
-              <div className="pricing-card glass-panel">
-                <h4 className="pricing-tier">Google Ads</h4>
-                <div className="pricing-price" style={{ fontSize: '1.5rem', marginTop: '0.5rem' }}>Custom Quote</div>
-                <ul className="pricing-features">
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Search & Display Network</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>In-Depth Keyword Strategy</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>CPC & Bid Optimization</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-secondary)" style={{ flexShrink: 0 }} /> <span>Conversion Tracking Setup</span></li>
-                </ul>
-                <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I am interested in Google Ads Promotion.')}`} target="_blank" rel="noopener noreferrer" className="btn btn-outline pricing-btn hover-scale">Get Started</a>
-              </div>
-
-              <div className="pricing-card glass-panel featured">
-                <h4 className="pricing-tier">Omnichannel Ads</h4>
-                <div className="pricing-price" style={{ fontSize: '1.5rem', marginTop: '0.5rem' }}>Custom Quote</div>
-                <ul className="pricing-features">
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>Instagram, Facebook & Google</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>Cross-Channel Strategy</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>Advanced A/B Testing</span></li>
-                  <li className="pricing-feature"><CheckCircle size={20} color="var(--accent-primary)" style={{ flexShrink: 0 }} /> <span>Dedicated Account Manager</span></li>
-                </ul>
-                <a href={`https://wa.me/918921809791?text=${encodeURIComponent('Hi JK Digital Solutions, I am interested in Omnichannel Ad Promotion (Google & Meta).')}`} target="_blank" rel="noopener noreferrer" className="btn btn-primary pricing-btn hover-scale">Get Started</a>
-              </div>
-
-            </div>
-          </div>
+          {/* End of categories */}
 
         </div>
       </section>

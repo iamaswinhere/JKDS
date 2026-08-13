@@ -1,4 +1,4 @@
-import { Monitor, Smartphone, Share2, TrendingUp, Search, Megaphone } from 'lucide-react';
+import { Monitor, Smartphone, Share2, TrendingUp, Search } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
@@ -27,11 +27,6 @@ const Services = () => {
       title: 'SEO',
       description: 'Advanced search engine optimization to ensure your brand ranks at the top of Google for relevant keywords.',
       icon: <Search size={32} color="#f59e0b" />
-    },
-    {
-      title: 'Ad Promotion',
-      description: 'Data-driven Google and Instagram ad campaigns designed to maximize ROI and generate high-quality leads.',
-      icon: <Megaphone size={32} color="#a855f7" />
     }
   ];
 
