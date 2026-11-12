@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer-brand">
             <h2 className="text-gradient">JK Digital Solutions</h2>
             <p className="footer-desc">
-              Your partner in digital transformation. We build beautiful, high-performance web applications and grow your brand on social media.
+              Your digital growth partner in Alathur, Palakkad, Kerala. We build high-performance websites, custom software, local SEO, and AI content to scale your brand.
             </p>
             <div className="social-links">
               <a href="https://www.facebook.com/share/14iUykxWBQx/?mibextid=wwXIfr" target="_blank" rel="noreferrer" className="social-link"><FaFacebook size={20} /></a>
@@ -28,6 +28,8 @@ const Footer = () => {
               <li><NavHashLink to="/#hero" smooth={true} className="f-link">Home</NavHashLink></li>
               <li><NavHashLink to="/#about" smooth={true} className="f-link">About Us</NavHashLink></li>
               <li><NavHashLink to="/services" smooth={true} className="f-link">Our Services</NavHashLink></li>
+              <li><NavHashLink to="/portfolio" smooth={true} className="f-link">Portfolio</NavHashLink></li>
+              <li><NavHashLink to="/blog" smooth={true} className="f-link">Blog</NavHashLink></li>
               <li><NavHashLink to="/#contact" smooth={true} className="f-link">Contact</NavHashLink></li>
             </ul>
           </div>
@@ -35,7 +37,7 @@ const Footer = () => {
           <div className="footer-links-group">
             <h3 className="footer-title">Products</h3>
             <ul className="footer-links">
-              <li><NavHashLink to="/#product" smooth={true} className="f-link">GymOS</NavHashLink></li>
+              <li><NavHashLink to="/product" smooth={true} className="f-link">GymOS</NavHashLink></li>
               <li><NavHashLink to="/services" smooth={true} className="f-link">Pricing</NavHashLink></li>
             </ul>
           </div>

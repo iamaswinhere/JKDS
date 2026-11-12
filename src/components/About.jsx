@@ -12,12 +12,11 @@ const About = () => {
               Who We <span className="text-gradient">Are</span>
             </h2>
             <p className="about-text">
-              At JK Digital Solutions, we are an expert digital marketing company dedicated to growing your business. 
-              We are not just a web design company; we create powerful websites and SEO strategies that bring you more customers and sales.
+              Based in Alathur, Palakkad, JK Digital Solutions is a results-driven web design and digital marketing agency dedicated to growing your business. 
+              We craft fast, conversion-focused websites and local SEO strategies that help businesses across Palakkad and Kerala attract more customers and sales.
             </p>
             <p className="about-text">
-              As a top SEO agency and website development team, we provide all the digital services you need in one place. 
-              From building a custom mobile app to running a successful social media marketing campaign, our digital marketing experts will help you succeed online.
+              From custom website development and mobile apps to AI content creation and social media marketing, our team provides end-to-end digital solutions in one place so your brand stands out online.
             </p>
             
             <div className="founder-card glass-panel hover-scale">

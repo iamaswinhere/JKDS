@@ -7,8 +7,8 @@ const ServicesPage = () => {
   return (
     <main className="services-page" style={{ paddingTop: '6rem', paddingBottom: '4rem', minHeight: '100vh' }}>
       <Helmet>
-        <title>Our Services | JK Digital Solutions</title>
-        <meta name="description" content="Explore our comprehensive digital solutions including Website Development, App Development, SEO, and Social Media Growth." />
+        <title>Services &amp; Pricing | Web Design &amp; Digital Marketing in Alathur, Palakkad — JK Digital Solutions</title>
+        <meta name="description" content="Explore web design, website development, mobile apps, local SEO, content creation, AI content creation, custom software, and digital marketing packages in Alathur, Palakkad." />
       </Helmet>
 
       <Services />

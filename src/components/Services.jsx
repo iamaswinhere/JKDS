@@ -1,4 +1,4 @@
-import { Monitor, Smartphone, Share2, TrendingUp, Search } from 'lucide-react';
+import { Monitor, Smartphone, Share2, TrendingUp, Search, Video, Sparkles, Code2, Wrench } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
@@ -27,6 +27,26 @@ const Services = () => {
       title: 'SEO',
       description: 'Advanced search engine optimization to ensure your brand ranks at the top of Google for relevant keywords.',
       icon: <Search size={32} color="#f59e0b" />
+    },
+    {
+      title: 'Content Creation',
+      description: 'Engaging reels, promotional videos, and creative visual storytelling crafted to captivate your audience.',
+      icon: <Video size={32} color="#a855f7" />
+    },
+    {
+      title: 'AI Content Creation',
+      description: 'Next-generation AI-powered videos, visuals, and copywriting to scale your brand content faster.',
+      icon: <Sparkles size={32} color="#06b6d4" />
+    },
+    {
+      title: 'Custom Software',
+      description: 'Tailored software solutions and internal tools engineered to streamline your unique business workflows.',
+      icon: <Code2 size={32} color="#3b82f6" />
+    },
+    {
+      title: 'Website Maintenance',
+      description: 'Ongoing updates, security monitoring, backups, and performance tuning to keep your site running smoothly.',
+      icon: <Wrench size={32} color="#ec4899" />
     }
   ];
 

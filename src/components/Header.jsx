@@ -19,7 +19,9 @@ const Header = () => {
     { name: 'Home', to: '/#hero' },
     { name: 'About', to: '/#about' },
     { name: 'Services', to: '/services' },
-    { name: 'Product', to: '/#product' },
+    { name: 'Portfolio', to: '/portfolio' },
+    { name: 'Blog', to: '/blog' },
+    { name: 'Product', to: '/product' },
     { name: 'Contact', to: '/#contact' },
   ];
 
@@ -27,7 +29,12 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-container">
         <div className="logo">
-          <NavHashLink to="/#hero" smooth={true} className="logo-text">
+          <NavHashLink
+            to="/#hero"
+            smooth={true}
+            className="logo-text"
+            onClick={() => setMobileMenuOpen(false)}
+          >
             <img src="/logo.svg" alt="JK Digital Solutions" className="logo-img" />
             <h1 className="text-gradient logo-title">JK Digital Solutions</h1>
           </NavHashLink>
@@ -52,32 +59,43 @@ const Header = () => {
 
         {/* Mobile Nav Toggle */}
         <button
-          className="mobile-toggle"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          type="button"
+          className={`mobile-toggle ${mobileMenuOpen ? 'open' : ''}`}
+          onClick={() => setMobileMenuOpen((prev) => !prev)}
+          aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-expanded={mobileMenuOpen}
         >
-          {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          <span className="mobile-toggle-icon">
+            {mobileMenuOpen ? <X size={26} /> : <Menu size={26} />}
+          </span>
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="mobile-menu glass-panel">
-          <ul className="mobile-nav-list">
-            {navLinks.map((link) => (
-              <li key={link.name}>
-                <NavHashLink
-                  to={link.to}
-                  smooth={true}
-                  className="mobile-nav-link"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {link.name}
-                </NavHashLink>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      {/* Animated Mobile Menu */}
+      <div
+        className={`mobile-menu glass-panel ${mobileMenuOpen ? 'is-open' : 'is-closed'}`}
+        aria-hidden={!mobileMenuOpen}
+      >
+        <ul className="mobile-nav-list">
+          {navLinks.map((link, index) => (
+            <li
+              key={link.name}
+              className="mobile-nav-item"
+              style={{ '--item-index': index }}
+            >
+              <NavHashLink
+                to={link.to}
+                smooth={true}
+                className="mobile-nav-link"
+                onClick={() => setMobileMenuOpen(false)}
+                tabIndex={mobileMenuOpen ? 0 : -1}
+              >
+                {link.name}
+              </NavHashLink>
+            </li>
+          ))}
+        </ul>
+      </div>
     </header>
   );
 };
